@@ -29,3 +29,13 @@
 .draggable-active {
     background-color: green;
 }
+
+.dropped_draggable{
+    left:0px;
+    top:0px;
+}
+
+.udsagns_container{
+    background-color: #eee;
+    padding-top: 20px;
+}

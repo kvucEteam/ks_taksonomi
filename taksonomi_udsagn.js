@@ -31,14 +31,17 @@ function init() {
     }
 
     for (var i = 0; i < JsonObj.niveauer.length; i++) {
-        $(".draggable_container").append("<h2><div class='draggable label label-default' id=" + i + ">" + JsonObj.niveauer[i] + "</div></h2>");
+        $(".draggable_container").append("<h3><div class='draggable label label-default' class=label_" + i + ">" + JsonObj.niveauer[i] + "</div></h3>");
     }
     // 
-    $(".droppable").droppable({
-        drop: function(event, ui) {}
+    $(".droppable, .draggable_container").droppable({
+        accept: ".draggable",
+        drop: function(event, ui) {
+            $(this).addClass("dropped_draggable");
+        }
     });
     $(".draggable").draggable({
-        //revert: true,
+        revert: "invalid",
         drag: function(event, ui) {
 
             $(this).css("opacity", 0.8).addClass("draggable-active");
