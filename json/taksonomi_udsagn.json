@@ -1,0 +1,18 @@
+{
+    "niveauer": [
+        "Redegørende", "Analyserende", "Diskuterende"
+    ],
+    "udsagn": [{
+        "Udsagn_sentence": "Artiklen fortæller, at en katolsk menighed i byen Yan’an endelig har fået lov til at bygge en kirke, og teksten ser det som et tegn på det kinesiske styres stigende religiøse accept.",
+        "Kategori": "Redegørende",
+        "Feedback": "Feedback om Redegørende Udsagn"
+    }, {
+        "Udsagn_sentence": "Da maoismen og og dyrkelsen af Mao som forbillede var på sit højeste, havde den karakter af civilreligion med egne ritualer, morallove, helligsteder - som f.eks. byen Yan’an - og mytiske fortællinger - som den om den lange march som kommunistpartiets glorværdige triumftog. Denne dyrkelse styrkede det nationale og ideologiske fællesskab og gav Mao nær-guddommelig autoritet som leder.",
+        "Kategori": "Analyserende",
+        "Feedback": "Feedback om Analyserende Udsagn"
+    }, {
+        "Udsagn_sentence": "Hændelserne i artiklen vidner om, at både Mao og kommunistpartiets historie ikke længere på samme måde har hellig status i Kina, og samtidig viser den, at styret generelt giver mere plads til religionsdyrkelse i samfundet - måske pga. internationale krav om forbedring af menneskerettigheder, måske af frygt samfundsmæssig anomi, opløsning og oprør.",
+        "Kategori": "Diskuterende",
+        "Feedback": "Feedback om Diskuterende Udsagn"
+    }]
+}

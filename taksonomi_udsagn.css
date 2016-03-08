@@ -1,0 +1,31 @@
+/********************************************************** 
+        Nedenstaaende tilfoejet af THAN 13-07-2015
+**********************************************************/
+
+.droppable {
+    z-index: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 10px 0 0;
+    background-color: #ddd;
+    padding: 5px;
+}
+
+.draggable_container {
+    margin-bottom: 20px;
+}
+
+.draggable {
+    z-index: 1;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    width:100%;
+}
+
+.draggable-active {
+    background-color: green;
+}
